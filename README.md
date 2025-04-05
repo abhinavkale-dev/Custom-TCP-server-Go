@@ -27,7 +27,7 @@ It listens for incoming connections, receives messages from clients, and logs th
 ### 🧾 Step 1: Clone the Repository or Copy the Code
 
 ```bash
-git clone https://github.com/your-username/go-tcp-server.git
+git clone https://github.com/abhinavkale-dev/go-tcp-server.git
 cd go-tcp-server
 ```
 
