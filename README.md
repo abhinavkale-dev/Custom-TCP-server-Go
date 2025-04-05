@@ -1,6 +1,6 @@
 # 🖧 Simple TCP Server in Go
 
-Welcome to the **Simple TCP Server**, a lightweight and concurrent TCP server built with Go!  
+Welcome to the **Custom TCP Server**, a lightweight and concurrent TCP server built with Go!  
 It listens for incoming connections, receives messages from clients, and logs them along with the sender's IP address. Perfect for learning or lightweight communication between systems.
 
 ---
@@ -27,7 +27,7 @@ It listens for incoming connections, receives messages from clients, and logs th
 ### 🧾 Step 1: Clone the Repository or Copy the Code
 
 ```bash
-git clone https://github.com/abhinavkale-dev/go-tcp-server.git
+git clone https://github.com/abhinavkale-dev/Custom-TCP-server-Go.git
 cd go-tcp-server
 ```
 
@@ -49,12 +49,6 @@ go run main.go
 You should see:
 ```
 Listening on :3000
-```
-
-🔁 To build a binary:
-```bash
-go build -o tcp-server main.go
-./tcp-server
 ```
 
 ---
@@ -88,16 +82,6 @@ Received message (127.0.0.1:PORT): Your message here
 ```
 
 ---
-
-## 💬 Example Messages
-
-```txt
-Hello, server!
-{"type": "ping", "status": "ok"}
-This is a multiline
-test message!
-🚀 Go is awesome!
-```
 
 ---
 
